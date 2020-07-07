@@ -9,6 +9,9 @@
 
 	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
 	
+	<!--  Controller가 처리하지 못하는 URL은 WAS가 처리하도록 하는 설정 -->
+	<default-servlet-handler/>
+	
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<!-- Spring MVC Project에서 50여가지의 설정을 대신해주는 태그 / Spring MVC의 어노테이션을 사용할 수 있도록 해주는 태그 -->
 	<annotation-driven />
